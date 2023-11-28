@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+.conteiner{
+    align-self: center;
+    width: 600px;
+}
+#taskInput {
+    margin-bottom: 10px;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+.taskText.completed {
+    justify-self: center;
+    text-decoration: line-through;
+    color: #888;
+}
+.deleteButton {
+    justify-self: right;
+    cursor: pointer;
+    color: #f00;
+    margin-left: 10px;
+}
